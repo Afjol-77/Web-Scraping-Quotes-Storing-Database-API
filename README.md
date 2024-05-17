@@ -47,6 +47,8 @@ Similarly, create, delete, retrieve operations can be done by heading to the URL
 
 
 This is an screenshot of API view:
+
+
 ![screenshot](https://github.com/Afjol-77/Web-Scraping-Quotes-Storing-Database-API/blob/main/ss.png?raw=true)
 ___
 ### THANK YOU!
