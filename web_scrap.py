@@ -37,7 +37,7 @@ def QuotesScraping():
       box = soup.findAll(class_='grid-item qb clearfix bqQt')     
       
       for item in box:
-        quote = author = item.find(class_="b-qt").text.strip()
+        quote = item.find(class_="b-qt").text.strip()
         author = item.find(class_="bq-aut").text
         quote_url = "https://www.brainyquote.com"+item.find(class_="b-qt")["href"]
         author_url = "https://www.brainyquote.com"+item.find(class_="bq-aut")["href"]
